@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f867aab3cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo 1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Specialised in Data Science</p>
+                <h1>Hello, I'm <span>Seshaeta</span><br>and this is my<br> Personal Portfolio</h1>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/seshaetapenumala/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/PenumalaSeshaeta"><i class="fab fa-github"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://drive.google.com/file/d/1km91t4M27IiJGfVJPa0m0o8W5yifbvN1/view" class="btn1">My Resume</a>
+    </div>
+    <!--about section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Final-year B.Tech CSE (Honors) student specializing in Data Science and Big Data Analytics. Designer lead of the EXPEDITE club and active in university activities. Known for strong leadership, excellent soft skills, and a commitment to continuous learning and mastering new technologies.</p><br>
+                    <p>This portfolio will highlight my academic achievements, practical experiences, and diverse talents, demonstrating my readiness to contribute effectively in professional settings. My goal is to create a comprehensive and visually appealing representation of my qualifications and experiences.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Major Study</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analytics</span><br>Course studied at University and through Coursera</li>
+                            <li><span>Data Visualisation</span><br>Course studied at University and through Coursera</li>
+                            <li><span>Data Mining</span><br>Course studied at University and through Coursera</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Secondary Education at TKS</li>
+                            <li><span>2019 - 2021</span><br>Senior Secondary Education at KLP</li>
+                            <li><span>2021 - 2025</span><br>Under Graduation at KL University</li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--skills-->
+<div id="skill">
+<h1 class="sub-title1 table1">My Skills</h1>
+<table>
+    <tr class="title-row">
+        <th colspan="3">Personal and Professional Skills</th>
+    </tr>
+    <tr>
+        <th>Technical Skills</th>
+        <th>Tools</th>
+        <th>Interpersonal Skills</th>
+    </tr>
+    <tr>
+        <td>C,Java,Python</td>
+        <td>Visual Studio Code</td>
+        <td>Communication</td>
+    </tr>
+    <tr>
+        <td>HTML,CSS,Javascript</td>
+        <td>Pycharm,Python IDLE</td>
+        <td>Positive attitude</td>
+    </tr>
+    <tr>
+        <td>SQL</td>
+        <td>MySQL,PSQL</td>
+        <td>Teamwork</td>
+    </tr>
+    <tr>
+        <td>Data Structures</td>
+        <td>Power BI,Tableau,Excel</td>
+        <td>Adaptability</td>
+    </tr>
+    <tr>
+        <td>Web Development</td>
+        <td>MongoDB</td>
+        <td>Time Management</td>
+    </tr>
+    <tr>
+        <td>PostgreSQL</td>
+        <td>Eclipse IDE</td>
+        <td>Problem Solving</td>
+    </tr>
+</table>
+</div>
+    <!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development involves creating and
+                   maintaining websites, focusing on aspects such 
+                   as web design, web publishing, web programming, 
+                   and database management. It encompasses both front-end 
+                   (client-side) and back-end (server-side) development to 
+                   build dynamic and interactive web applications.</p>
+                <a href="https://github.com/PenumalaSeshaeta">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis</h2>
+                <p>Data analysis involves inspecting, cleaning, transforming, 
+                   and modeling data to discover useful information, draw conclusions, 
+                   and support decision-making. It encompasses techniques from statistics, 
+                   machine learning, and computer science to interpret complex data sets 
+                   and generate actionable insights.</p>
+                <a href="https://drive.google.com/file/d/1keThfIWgP9msMcuQVgPDat3TgGSdmFLU/view">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-object-group"></i>
+                <h2>Poster Design</h2>
+                <p>Poster designing involves creating visually appealing and informative
+                   graphics to communicate a message effectively to a target audience. It 
+                   combines elements of graphic design, typography, and layout to capture 
+                   attention and convey information succinctly and attractively.</p>
+                <a href="https://drive.google.com/file/d/1mJ6hM-Cw4FwUgQJNUISvaPRzWC6yV6be/view">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio section-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Real Estate Management System</h3>
+                    <p>I developed a Real Estate Management System project using MERN Stack Web Development for frontend and
+                        backend development for managing the activities like buying and renting properties.</p>
+                        <a href="https://github.com/PenumalaSeshaeta/mswd-project-REM.git"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Properties Dealing System</h3>
+                    <p>I developed a Property Dealing Management System using Python Full-Stack Web Development(Django) for dealing with
+                       different types of immovable assets and properties to buy, sell, and rent based on the user’s choice.</p>
+                        <a href="https://github.com/PenumalaSeshaeta/pfsd-project-rem.git"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Online Voting System</h3>
+                    <p>I developed using Java Full Stack Development and made a online voting system which allows users
+                       to cast votes. It ensures secure and efficient voting processes, often incorporating features such
+                       as voter authentication, vote encryption to maintain the integrity and confidentiality of the election.</p>
+                        <a href="https://github.com/PThanujaRam/Online-Voting-System.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/PenumalaSeshaeta" class="btn">See more</a>
+        </div>
+    </div>
+    <!--contact section-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                 <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>seshaeta@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/seshaetapenumala/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/PenumalaSeshaeta"><i class="fab fa-github"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                    </div>
+                 </div>
+                 <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                 </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Seshaeta. All rights reserved.</p> 
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
